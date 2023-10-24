@@ -74,8 +74,12 @@ form button{
     border-radius: 20px;
     background-color: rgb(194, 156, 34);
     border: none;
+    cursor: pointer;
 }
 form button a{
     color: rgb(255, 255, 255);
     font-family: 'Montserrat', sans-serif;
+}
+form button:hover{
+    background-color: brown;
 }
