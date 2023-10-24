@@ -9,9 +9,12 @@
     <title>Crioulos Pizzaria</title>
 </head>
 <body>
+  <div class="preloader">
+    <div class="spinner"></div>
+</div>
     <div class="painho">
   <div class="logo">
-    <img src="imgs/logo.png" alt="" width="400px">
+    <img src="imgs/logo.png" alt="" width="300px">
   </div>
     <form method="get">
         <h1>Faça seu Cadastro</h1>
@@ -32,5 +35,14 @@
     </form>
 </div>
 
+<!-- Código do Loader que eu peguei com o ChatGpt -->
+
+<script>
+  setTimeout(function() {
+      document.querySelector('.preloader').style.display = 'none';
+      document.body.style.overflow = 'auto';
+  }, 1500);
+  
+</script>
 </body>
 </html>
