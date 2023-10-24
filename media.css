@@ -1,0 +1,57 @@
+@media screen and (max-width: 520px){
+
+.painho{
+    width: 80vw;
+    height: 60vh;
+    align-items: center;
+    justify-content: space-between;
+}
+.painho img{
+    width: 70%;
+}
+form{
+    margin-bottom: 30px;
+    border-radius: 13px;
+    width: 90%;
+    height: 70%;
+}
+form h1{
+    font-size: .9em;
+    margin-top: 20px;
+}
+form input{
+    height: 8%;
+    width: 80%;
+    border-radius: 12px;
+    padding: 7;
+}
+form input::placeholder{
+    font-size: 10px;
+    opacity: .7;
+}
+form button{
+    width: 100px;
+    padding: 5px;
+    font-size: 10px;
+}
+body{
+    background-repeat: repeat-y;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
