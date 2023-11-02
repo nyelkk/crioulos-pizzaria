@@ -1,48 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="media.css">
-    <link rel="shortcut icon" href="imgs/logo.png" type="image/x-icon">
-    <title>Crioulos Pizzaria</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media.css">
+  <link rel="shortcut icon" href="imgs/pizzeria.png" type="image/x-icon">
+  <title>Crioulos Pizzaria</title>
 </head>
+
 <body>
   <div class="preloader">
     <div class="spinner"></div>
-</div>
-    <div class="painho">
-  <div class="logo">
-    <img src="imgs/logo.png" alt="" width="250px">
   </div>
+  <div id="welcome">
+    <h1>SEJA BEM VINDO AO CRIOULOS PIZZARIA!</h1>
+    <br>
+    <h2>A MAIOR PIZZARIA FICTÍCIA!</h2> 
+  </div>
+  <div class="painho">
+    <div class="logo">
+      <img src="imgs/white-logo.png" alt="logo">
+    </div>
     <form method="get">
-        <h1>Faça seu Cadastro</h1>
-        <input type="name" placeholder="Nome completo">
-        <br>
-        <input type="tel" placeholder="Telefone para contato">
-        <br>
-        <input type="email" placeholder="Informe seu email">
-        <br>
-        <input type="password" placeholder="Digite sua senha">
-        <br>
+      <h1>Faça seu Cadastro:</h1>
+      <input type="name" placeholder="Nome completo">
+      <br>
+      <input type="number" inputmode="numeric" placeholder="Telefone para contato">
+      <br>
+      <input type="email" placeholder="Informe seu email">
+      <br>
+      <input type="password" placeholder="Digite sua senha">
+      <br>
 
-        <div id="botao">
+      <div id="botao">
         <button>
-            <a href="#">Faça seu Pedido</a>
+          <a href="./client-page.html/index.html">Faça seu Pedido</a>
         </button>
-       </div>
+      </div>
     </form>
-</div>
+  </div>
 
-<!-- Código do Loader que eu peguei com o ChatGpt -->
+  
 
-<script>
-  setTimeout(function() {
+  <!-- Código do Loader que eu peguei com o ChatGpt -->
+
+  <script>
+    setTimeout(function () {
       document.querySelector('.preloader').style.display = 'none';
       document.body.style.overflow = 'auto';
-  }, 1500);
-</script>
+    }, 2500);
+  </script>
+
 </body>
+
 </html>

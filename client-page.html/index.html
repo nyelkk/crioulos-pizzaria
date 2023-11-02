@@ -1,23 +1,28 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crioulos Pizzaria</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="../imgs/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../imgs/pizzeria.png" type="image/x-icon">
 </head>
+
 <body>
+    <div class="preloader">
+        <div class="spinner"></div>
+    </div>
     <header>
-        <img src="../imgs/logo.png" alt="Logo" width="100px">
-        <div class="link">
-            <a href=".title"><span>Pizzas</span></a>
-            <a href="#sodas"><span>Refrigerantes</span></a>
-        </div>
+        <img src="../imgs/white-logo.png" alt="Logo" width="100px">
+        <nav>
+            <a href="#pizzas">Pizzas</a>
+            <a href="#sodas">Refrigerantes</a>
+        </nav>
     </header>
     <main>
-        <div class="title">
+        <div id="title">
             <h1>⎯⎯ PIZZAS</h1>
         </div>
         <div class="products">
@@ -26,69 +31,140 @@
                 <img src="../pizza-images/calabresa.jpg" alt="pizza de calabresa">
                 <br>
                 <span>Molho de tomate, queijo mussarela, linguiça calabresa fatiada, cebola, azeitonas e orégano.</span>
+                <label class="checkbox-container">
+                    <input type="checkbox" class="myCheckbox">
+                    <span class="checkmark">+</span>
+                </label>
             </div>
+
             <div class="pizzas">
                 <h1>Carne de Sol</h1>
                 <img src="../pizza-images/carne.jpg" alt="pizza de carne">
                 <br>
-                <span>Molho de tomate, queijo mussarela, carne de sol desfiada e refogada, cebola roxa, queijo coalho e coentro.</span>
+                <span>Molho de tomate, queijo mussarela, carne de sol desfiada e refogada, cebola roxa, queijo coalho e
+                    coentro.</span>
+                <label class="checkbox-container">
+                    <input type="checkbox" class="myCheckbox">
+                    <span class="checkmark">+</span>
+                </label>
             </div>
             <div class="pizzas">
                 <h1>Frango com Catupiry</h1>
                 <img src="../pizza-images/catupiry.jpg" alt="pizza de frango">
                 <br>
-                <span>Molho de tomate, queijo mussarela, frango desfiado, Catupiry (um tipo de requeijão cremoso), milho, e temperos.</span>
+                <span>Molho de tomate, queijo mussarela, frango desfiado, Catupiry (um tipo de requeijão cremoso),
+                    milho, e temperos.</span>
+                <label class="checkbox-container">
+                    <input type="checkbox" class="myCheckbox">
+                    <span class="checkmark">+</span>
+                </label>
             </div>
             <div class="pizzas">
                 <h1>Marguerita</h1>
                 <img src="../pizza-images/marguerita.jpg" alt="pizza de marguerita">
                 <br>
-                <span>Molho de tomate, queijo mussarela fresco, folhas de manjericão fresco, azeite de oliva, alho e orégano.</span>
-                <h1>23,90</h1>
+                <span>Molho de tomate, queijo mussarela fresco, folhas de manjericão fresco, azeite de oliva, alho e
+                    orégano.</span>
+                <label class="checkbox-container">
+                    <input type="checkbox" class="myCheckbox">
+                    <span class="checkmark">+</span>
+                </label>
             </div>
             <div class="pizzas">
                 <h1>Mussarela</h1>
                 <img src="../pizza-images/mussarela.jpg" alt="pizza de mussarela">
                 <br>
                 <span> Molho de tomate, generosa quantidade de queijo mussarela e orégano.</span>
+                <label class="checkbox-container">
+                    <input type="checkbox" class="myCheckbox">
+                    <span class="checkmark">+</span>
+                </label>
             </div>
             <div class="pizzas">
                 <h1>Chocolate com Morango</h1>
                 <img src="../pizza-images/choco.jpg" alt="pizza de choco">
                 <br>
-                <span>Chocolate ou creme de avelã (como Nutella), morangos frescos ou em calda, e raspas de chocolate.</span>
+                <span>Chocolate ou creme de avelã (como Nutella), morangos frescos ou em calda, e raspas de
+                    chocolate.</span>
+                <label class="checkbox-container">
+                    <input type="checkbox" class="myCheckbox">
+                    <span class="checkmark">+</span>
+                </label>
             </div>
         </div>
     </main>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <section id="sodas">
         <div class="title">
-            <h1>⎯⎯Refrigerantes</h1>
+            <h1>⎯⎯ REFRIGERANTES</h1>
         </div>
         <div class="products">
+            <div class="drinks">
+                <h1>Coca-Cola</h1>
+                <img src="../sodas-images/coca.png" alt="coca">
+                <br>
+                <span>Latinha de 350ML</span>
+                <label class="checkbox-container">
+                    <input type="checkbox" class="myCheckbox">
+                    <span class="checkmark">+</span>
+                </label>
+            </div>
 
+            <div class="drinks">
+                <h1>Guaraná Antarctica</h1>
+                <img src="../sodas-images/guarana.png" alt="guarana">
+                <br>
+                <span>Latinha de 350ML</span>
+                <label class="checkbox-container">
+                    <input type="checkbox" class="myCheckbox">
+                    <span class="checkmark">+</span>
+                </label>
+            </div>
+            <div class="drinks">
+                <h1>Fanta</h1>
+                <img src="../sodas-images/fanta.png" alt="fanta">
+                <br>
+                <span>Latinha de 350ML</span>
+                <label class="checkbox-container">
+                    <input type="checkbox" class="myCheckbox">
+                    <span class="checkmark">+</span>
+                </label>
+            </div>
         </div>
     </section>
+    <section id="empty"></section>
+    <section id="order">
+        <img src="https://media.tenor.com/h2hWWmsQDUMAAAAC/baking-pizza.gif" alt="pizzaiolo">
+        <div class="submit">
+            <h1>JÁ ESCOLHEU SUA PIZZA?</h1>
+            <button>Efetuar pedido</button>
+        </div>
+    </section>
+
+    <script>
+        // Código do Pre Loader feito pelo ChatGpt:
+
+        setTimeout(function () {
+            document.querySelector('.preloader').style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }, 2500);
+
+        // Código das checkboxes feito pelo ChatGpt:
+
+        var checkboxes = document.querySelectorAll('.myCheckbox');
+
+        for (var i = 0; i < checkboxes.length; i++) {
+            checkboxes[i].addEventListener('change', function () {
+                var checkboxSymbol = this.nextElementSibling;
+                if (this.checked) {
+                    checkboxSymbol.textContent = '-';
+                } else {
+                    checkboxSymbol.textContent = '+';
+                }
+            });
+        }
+    </script>
 </body>
+
 </html>
