@@ -1,0 +1,143 @@
+@media screen and (max-width: 520px){
+
+
+/* *{
+    overflow-x: hidden;
+} */
+header{
+    width: 55%;
+    align-items: center;
+    justify-content: center;
+}
+header nav{
+    display: none;
+}
+header img{
+    width: 100px;
+    margin: 0 auto;
+}
+main{
+    flex-wrap: wrap;
+    width: 100vw;
+}
+main .products .pizzas img {
+    width: 200px;
+    padding: 10px;
+    border-radius: 2px;
+}
+main #title {
+    margin-top: 50px;
+    margin-left: 30px;
+}
+main #title h1{
+    font-size: 1em;
+}
+main .products {
+    width: 20vw;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+main .products .pizzas {
+    background-color: rgba(0, 0, 0, 0.493);
+    border: .5px solid rgba(241, 241, 241, 0.185);
+    border-radius: 5px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 210px;
+    height: 210px;
+    font-size: 60%;
+}
+main .products .pizzas h1 {
+    margin-top: 25px;
+    font-size: 15px;
+}
+main .products .pizzas span {
+    margin-top: -15px;
+    margin-right: 10px;
+    max-width: 80%;
+    text-align: center;
+}
+#sodas{
+    width: 60%;
+}
+#sodas .title h1 {
+    font-size: 1em;
+}
+
+#sodas .products .drinks img {
+    width: 200px;
+    padding: 10px;
+    border-radius: 2px;
+}
+#sodas #title {
+    margin-top: 50px;
+    margin-left: 30px;
+}
+#sodas .products {
+    width: 20vw;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+#sodas .products .drinks {
+    background-color: rgba(0, 0, 0, 0.493);
+    border: .5px solid rgba(241, 241, 241, 0.185);
+    border-radius: 5px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 210px;
+    height: 210px;
+    font-size: 60%;
+}
+#sodas .products .drinks h1 {
+    margin-top: 25px;
+    font-size: 15px;
+}
+#sodas .products .drinks span {
+    margin-top: -15px;
+    margin-right: 10px;
+    max-width: 80%;
+    text-align: center;
+}
+#empty{
+    margin-top: 20px;
+    width: 60%;
+    height: 10px;
+    background-color: #ebebeb;
+}
+#order{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+#order img{
+    width: 90%;
+    padding: 30px;
+}
+#order .submit button{
+    width: 200px;
+    margin-bottom: 30px;
+}
+#order .submit h1{
+    font-size: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
